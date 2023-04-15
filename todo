@@ -1,0 +1,20 @@
+[X] Baixar as lib necessárias para o projeto inicialmente
+  - [X] React Navigation
+  - [X] Async Storage
+  - [X] Styled components
+  - [X] Phosphor-react
+
+[X] criar o theme do projeto
+[X] tipar o theme
+[X] tipar as imagens .png
+ 
+[] SCREENS
+  [] Criar a screen Home
+  [] Fazer screen Statistics
+  [] Fazer screen Criação de Refeição
+  [] Refeição screen
+
+[] Components
+  [X] Loading
+  [] Input
+  [] Button
