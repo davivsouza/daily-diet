@@ -20,11 +20,12 @@ export default {
   },
   fontFamily: {
     regular: 'NunitoSans_400Regular',
-    bold: 'NunitoSans_600Bold'
+    bold: 'NunitoSans_700Bold'
 
   },
   fontSize: {
     sm: 12,
+    s: 14,
     md: 16,
     lg: 18,
     xl: 24,
