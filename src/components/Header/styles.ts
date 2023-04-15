@@ -20,7 +20,6 @@ export const ProfileIcon = styled.Image`
   border-radius: 999px;
   border-width: 2px;
   border-color: ${({ theme }) => theme.colors.gray_2};
-  border-style: solid;
 `
 
 export const Text = styled.Text`

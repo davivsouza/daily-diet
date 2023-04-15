@@ -6,7 +6,7 @@ export function Header() {
   return (
     <Container>
       <Logo source={logo}/>
-      <ProfileIcon source={profileIcon}/>
+      <ProfileIcon source={profileIcon} resizeMode="cover"/>
     </Container>
   )
 }
