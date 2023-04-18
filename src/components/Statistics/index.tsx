@@ -1,7 +1,6 @@
-import { ArrowUpRight } from "phosphor-react";
 import { Container, Icon, OpenStatisticScreen, Percent, PercentLabel } from "./styles";
 
-export function Statistic() {
+export function Statistics() {
   return (
     <Container>
       <Percent>90,86%</Percent>

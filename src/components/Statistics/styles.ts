@@ -1,5 +1,5 @@
-import { ArrowUpRight } from 'phosphor-react';
 import { TouchableOpacity } from 'react-native';
+import { ArrowUpRight } from 'phosphor-react-native';
 import styled, { css } from 'styled-components/native'
 
 export const Container = styled.View`
@@ -14,7 +14,6 @@ export const Container = styled.View`
 
 export const Percent = styled.Text`
   ${({ theme }) => css`
-  
     font-size: ${theme.fontSize.xxl}px;
     color: ${theme.colors.gray_1};
     font-family: ${theme.fontFamily.bold};
@@ -27,14 +26,16 @@ ${({ theme }) => css`
   color: ${theme.colors.gray_2};
   font-family: ${theme.fontFamily.regular};
   `}
-  `;
+`;
 
 
 export const OpenStatisticScreen = styled(TouchableOpacity)`
-  width: 90px;
-  height: 90px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 `
 
-export const Icon = styled(ArrowUpRight).attrs(({theme}) => ({
+export const Icon = styled(ArrowUpRight).attrs(({ theme }) => ({
+  size: 32,
   color: theme.colors.green_dark
 }))``
